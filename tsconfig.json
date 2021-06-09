@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "esnext",
+        "esModuleInterop": true,
+        "importHelpers": true,
+        "resolveJsonModule": true,
+        "noImplicitAny": true,
+        "declaration": false,
+        "sourceMap": false,
+        "outDir": "./",
+        "baseUrl": "."
+    },
+    "include": [
+        "src/ts/**/*"
+    ],
+    "exclude": [
+        "src/test"
+    ]
+}

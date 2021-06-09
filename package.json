@@ -1,0 +1,36 @@
+{
+  "name": "extract-perf-metrics",
+  "version": "1.0.0",
+  "description": "Tool to extract some performance metrics for a specific public url using puppeteer and other tools",
+  "main": "main.js",
+  "scripts": {
+    "cleanup": "node src/scripts/cleanup",
+    "build": "node src/scripts/compile",
+    "start": "node output/main",
+    "test": "tsc --noEmit"
+  },
+  "keywords": [
+    "puppeteer",
+    "web-performance"
+  ],
+  "author": "Florin Cosmin Onciu",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/fs-extra": "9.0.11",
+    "@types/node": "15.0.1",
+    "@types/psi": "4.1.0",
+    "@types/rimraf": "3.0.0",
+    "esbuild": "0.11.16",
+    "glob": "7.1.6",
+    "typescript": "4.2.4"
+  },
+  "dependencies": {
+    "fs-extra": "9.1.0",
+    "psi": "4.1.0",
+    "puppeteer": "9.0.0",
+    "rimraf": "3.0.2"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}

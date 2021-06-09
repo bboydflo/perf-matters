@@ -1,0 +1,8 @@
+node_modules/
+.idea/
+*.sublime-workspace
+*.log
+.nyc_output/
+.DS_Store
+src/backend/**.js
+output/
